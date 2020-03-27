@@ -167,6 +167,6 @@ jobs:
       espressoBuildDirectory: '$(Build.ArtifactStagingDirectory)/iot-e2e-tests/android/app/build/outputs/apk/androidTest/debug'
       serverEndpoint: 'AppCenter connection aziotclb'
       appSlug: 'Azure-Iot-Sdk/androide2e'
-      devices: 'Azure-Iot-Sdk/api17'
+      devices: 'Azure-Iot-Sdk/api17_2'
       runOptions: '--test-parameter annotation=com.microsoft.azure.sdk.iot.android.helper.$(ANDROID_TEST_GROUP_ID)'
       showDebugOutput: true
