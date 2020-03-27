@@ -18,12 +18,12 @@ def STRING='String'
 //***********************************************************************************************//
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 17
 
     defaultConfig {
         applicationId "com.iothub.azure.microsoft.com.androide2e"
-        minSdkVersion 24
-        targetSdkVersion 28
+        minSdkVersion 17
+        targetSdkVersion 17
         multiDexEnabled true
         versionCode 1
         versionName "1.0"
